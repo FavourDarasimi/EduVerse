@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 shadow-lg p-3 bg-white/50 backdrop-blur-sm"
+    >
+      <ul class="flex items-center justify-between list-none p-0 m-0">
+        <li class="flex items-center gap-x-2 font-bold text-[22px]">
+          <div
+            class="bg-gradient-to-r from-blue-500 to-blue-700 rounded-xl p-1"
+          >
+            <img src="graduation.png" class="w-9" alt="" />
+          </div>
+          EduVerse
+        </li>
+        <div class="flex gap-8">
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            Home
+          </li>
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            Program
+          </li>
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            Vision & Goals
+          </li>
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            About
+          </li>
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            Contact
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex h-[800px] w-full pt-[68px]">
+      <!-- Left Column - Hero Content -->
+      <div class="w-1/2">
+        <div
+          class="relative bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 h-[100%] w-full clip-path"
+        >
+          <div class="p-10 text-white">
+            <img src="graduation.png" class="w-32" alt="" />
+
+            <h1 class="text-5xl text-wrap font-bold w-[70%] mt-5">
+              Shaping Bright Futures, One Student at a Time
+            </h1>
+            <h1 class="text-xl w-[70%] mt-10">
+              Empowering young minds with quality education, creativity, and
+              character for tomorrow's leaders
+            </h1>
+            <button
+              class="mt-10 bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer mx-auto"
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column - Quality Education Graphic -->
+      <div class="w-1/2 flex items-center justify-center relative">
+        <!-- Background teal shape -->
+
+        <!-- Main Quality Education Graphic -->
+        <div class="relative z-10 text-center rounded-3xl p-12 bg-white">
+          <!-- Central graduation cap icon -->
+          <div class="mx-auto mb-6">
+            <div
+              class="w-32 h-32 bg-blue-800 rounded-full flex items-center justify-center mx-auto"
+            >
+              <svg
+                class="w-16 h-16 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Main text -->
+          <h2 class="text-4xl font-bold text-gray-800 mb-3">
+            Quality Education
+          </h2>
+          <p class="text-xl text-gray-600 mb-10">
+            Building bright futures together
+          </p>
+
+          <!-- Decorative dots -->
+          <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+            <div
+              class="absolute top-4 left-4 w-2 h-2 bg-orange-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-4 right-4 w-2 h-2 bg-green-500 rounded-full"
+            ></div>
+            <div
+              class="absolute bottom-4 right-4 w-2 h-2 bg-orange-400 rounded-full"
+            ></div>
+            <div
+              class="absolute bottom-4 left-4 w-2 h-2 bg-blue-800 rounded-full"
+            ></div>
+          </div>
+
+          <!-- Corner Icons with Animations -->
+          <!-- Top Left - Book -->
+          <div
+            class="absolute -top-6 -left-6 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center animate-bounce"
+            style="animation-delay: 0s; animation-duration: 2s"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+              ></path>
+            </svg>
+          </div>
+
+          <!-- Top Right - Graduation Cap -->
+          <div
+            class="absolute -top-6 -right-6 w-12 h-12 bg-orange-300 rounded-full flex items-center justify-center animate-pulse"
+            style="animation-delay: 0.5s; animation-duration: 2s"
+          >
+            <svg
+              class="w-6 h-6 text-gray-800"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14l9-5-9-5-9 5 9 5z"
+              ></path>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+              ></path>
+            </svg>
+          </div>
+
+          <!-- Bottom Left - Trophy -->
+          <div
+            class="absolute -bottom-6 -left-6 w-12 h-12 bg-blue-800 rounded-full flex items-center justify-center animate-spin"
+            style="animation-delay: 1s; animation-duration: 3s"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+              ></path>
+            </svg>
+          </div>
+
+          <!-- Bottom Right - People -->
+          <div
+            class="absolute -bottom-6 -right-6 w-12 h-12 bg-blue-800 rounded-full flex items-center justify-center animate-ping"
+            style="animation-delay: 1.5s; animation-duration: 2s"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="mt-10 mx-80">
+      <div class="text-center mb-10">
+        <h1 class="text-4xl font-bold text-blue-800">Our Core Values</h1>
+        <h1 class="text-xl mt-2">
+          The foundation of our educational philosophy
+        </h1>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+        <div
+          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+        >
+          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+            🏆
+          </div>
+          <h3 class="font-semibold text-[20px] mt-2">Excellence</h3>
+          <p class="text-17 text-gray-600">
+            We strive for the highest standards in academics and character.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+        >
+          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+            🛡️
+          </div>
+          <h3 class="font-semibold text-[20px] mt-2">Discipline</h3>
+          <p class="text-17 text-gray-600">
+            We uphold order, self-control, and respect at all times.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+        >
+          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+            💡
+          </div>
+          <h3 class="font-semibold text-[20px] mt-2">Innovation</h3>
+          <p class="text-17 text-gray-600">
+            We nurture creativity and problem-solving skills.
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+        >
+          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+            🤝
+          </div>
+          <h3 class="font-semibold text-[20px] mt-2">Integrity</h3>
+          <p class="text-17 text-gray-600">
+            We promote honesty, fairness, and accountability.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Rich History Section -->
+    <div class="py-20">
+      <div class="max-w-7xl mx-auto px-8">
+        <div class="flex gap-16 items-center">
+          <!-- Left Column - History Content -->
+          <div class="w-1/2">
+            <h2 class="text-4xl font-bold text-blue-800 mb-8">
+              Our Rich History
+            </h2>
+
+            <!-- Founded in 2005 -->
+            <div class="flex items-start gap-4 mb-8">
+              <div
+                class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0"
+              >
+                <svg
+                  class="w-6 h-6 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  Founded in 2010
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Eduverse was founded in 2010 with 40 students and 6 passionate
+                  teachers, driven by a mission to nurture excellence and
+                  character in young learners.
+                </p>
+              </div>
+            </div>
+
+            <!-- Growing Community -->
+            <div class="flex items-start gap-4 mb-8">
+              <div
+                class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center flex-shrink-0"
+              >
+                <svg
+                  class="w-6 h-6 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  Growing Community
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Today, Eduverse has expanded into a vibrant learning community
+                  of 850 students and 50+ experienced teachers, enriched with
+                  science labs, ICT centers, and a spacious 12-acre campus.
+                </p>
+              </div>
+            </div>
+
+            <!-- Academic Excellence -->
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center flex-shrink-0"
+              >
+                <svg
+                  class="w-6 h-6 text-orange-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">
+                  Academic Excellence
+                </h3>
+                <p class="text-gray-600 leading-relaxed">
+                  Year after year, Eduverse students excel in national
+                  examinations such as WAEC, NECO, and JAMB, with remarkable
+                  pass rates and increasing access to university scholarships.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column - Classroom Image -->
+          <div class="flex justify-center">
+            <!-- Overlay box with years of excellence -->
+            <div class="bg-blue-800 text-white px-10 py-6 rounded-lg">
+              <div class="text-6xl font-bold">12+</div>
+              <div class="text-15">Years of Excellence</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .clip-path {
+        clip-path: ellipse(100% 100% at 0% 0%);
+      }
+    </style>
+  </body>
+</html>
