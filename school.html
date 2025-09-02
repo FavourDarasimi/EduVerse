@@ -11,7 +11,7 @@
     <nav
       class="fixed top-0 left-0 right-0 z-50 shadow-lg p-3 bg-white/50 backdrop-blur-sm"
     >
-      <ul class="flex items-center justify-between list-none p-0 m-0">
+      <ul class="flex items-center justify-between list-none mx-32">
         <li class="flex items-center gap-x-2 font-bold text-[22px]">
           <div
             class="bg-gradient-to-r from-blue-500 to-blue-700 rounded-xl p-1"
@@ -24,34 +24,39 @@
           <li
             class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
           >
-            Home
+            <a href="#home">Home</a>
           </li>
           <li
             class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
           >
-            Program
+            <a href="#about">About</a>
           </li>
           <li
             class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
           >
-            Vision & Goals
+            <a href="#academics">Academics</a>
           </li>
           <li
             class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
           >
-            About
+            <a href="#admission">Admissions</a>
           </li>
           <li
             class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
           >
-            Contact
+            <a href="#studentlife">Student Life</a>
+          </li>
+          <li
+            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+          >
+            <a href="#contact">Contact</a>
           </li>
         </div>
       </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <div class="flex h-[800px] w-full pt-[68px]">
+    <!-- Hero div -->
+    <div class="flex h-[800px] w-full pt-[68px]" id="home">
       <!-- Left Column - Hero Content -->
       <div class="w-1/2">
         <div
@@ -223,181 +228,910 @@
       </div>
     </div>
 
-    <!-- About -->
-    <div class="mt-10 mx-80">
-      <div class="text-center mb-10">
-        <h1 class="text-4xl font-bold text-blue-800">Our Core Values</h1>
-        <h1 class="text-xl mt-2">
-          The foundation of our educational philosophy
+    <!-- About div -->
+    <div id="about">
+      <div class="mt-10 mx-80">
+        <div class="text-center mb-10">
+          <h1 class="text-4xl font-bold">Our Core Values</h1>
+          <h1 class="text-xl mt-2">
+            The foundation of our educational philosophy
+          </h1>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+          <div
+            class="flex flex-col items-center border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+          >
+            <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+              🏆
+            </div>
+            <h3 class="font-semibold text-[20px] mt-2">Excellence</h3>
+            <p class="text-17 text-gray-600">
+              We strive for the highest standards in academics and character.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+          >
+            <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+              🛡️
+            </div>
+            <h3 class="font-semibold text-[20px] mt-2">Discipline</h3>
+            <p class="text-17 text-gray-600">
+              We uphold order, self-control, and respect at all times.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+          >
+            <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+              💡
+            </div>
+            <h3 class="font-semibold text-[20px] mt-2">Innovation</h3>
+            <p class="text-17 text-gray-600">
+              We nurture creativity and problem-solving skills.
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
+          >
+            <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
+              🤝
+            </div>
+            <h3 class="font-semibold text-[20px] mt-2">Integrity</h3>
+            <p class="text-17 text-gray-600">
+              We promote honesty, fairness, and accountability.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Our Rich History div -->
+      <div class="py-20">
+        <div class="max-w-7xl mx-auto px-8">
+          <div class="flex gap-16 items-center">
+            <!-- Left Column - History Content -->
+            <div class="w-1/2">
+              <h2 class="text-4xl font-bold mb-8">Our Rich History</h2>
+
+              <!-- Founded in 2005 -->
+              <div class="flex items-start gap-4 mb-8">
+                <div
+                  class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-blue-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    Founded in 2010
+                  </h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Eduverse was founded in 2010 with 40 students and 6
+                    passionate teachers, driven by a mission to nurture
+                    excellence and character in young learners.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Growing Community -->
+              <div class="flex items-start gap-4 mb-8">
+                <div
+                  class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    Growing Community
+                  </h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Today, Eduverse has expanded into a vibrant learning
+                    community of 850 students and 50+ experienced teachers,
+                    enriched with science labs, ICT centers, and a spacious
+                    12-acre campus.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Academic Excellence -->
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-orange-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">
+                    Academic Excellence
+                  </h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Year after year, Eduverse students excel in national
+                    examinations such as WAEC, NECO, and JAMB, with remarkable
+                    pass rates and increasing access to university scholarships.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column - Classroom Image -->
+            <div class="flex justify-center">
+              <!-- Overlay box with years of excellence -->
+              <div class="bg-blue-800 text-white px-10 py-6 rounded-lg">
+                <div class="text-6xl font-bold">12+</div>
+                <div class="text-15">Years of Excellence</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Programs div -->
+    <div class="text-center" id="academics">
+      <div>
+        <h1 class="text-4xl font-bold">Our Academic Programs</h1>
+        <h1 class="text-xl mt-2 mx-80">
+          From Nursery to Secondary, we provide a complete learning journey that
+          builds strong foundations, nurtures creativity, and prepares students
+          for excellence
         </h1>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
-        <div
-          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
-        >
-          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
-            🏆
+      <div>
+        <div class="grid md:grid-cols-3 gap-12 mx-52 mt-5">
+          <!-- Nursery -->
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="text-5xl">🧸</div>
+            <h3 class="text-xl font-semibold mt-3">Nursery div</h3>
+            <p class="text-gray-600 mt-2">
+              A fun and safe start to learning through play and creativity.
+            </p>
+            <ul class="mt-3 text-17 text-gray-500 space-y-1">
+              <li>• Early years foundation</li>
+              <li>• Phonics & number work</li>
+              <li>• Creative play</li>
+            </ul>
           </div>
-          <h3 class="font-semibold text-[20px] mt-2">Excellence</h3>
-          <p class="text-17 text-gray-600">
-            We strive for the highest standards in academics and character.
-          </p>
-        </div>
-        <div
-          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
-        >
-          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
-            🛡️
+
+          <!-- Primary -->
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="text-5xl">📘</div>
+            <h3 class="text-xl font-semibold mt-3">Primary div</h3>
+            <p class="text-gray-600 mt-2">
+              Building literacy, numeracy, and character for future success.
+            </p>
+            <ul class="mt-3 text-17 text-gray-500 space-y-1">
+              <li>• English & Mathematics</li>
+              <li>• Basic sciences & social studies</li>
+              <li>• Moral instruction</li>
+            </ul>
           </div>
-          <h3 class="font-semibold text-[20px] mt-2">Discipline</h3>
-          <p class="text-17 text-gray-600">
-            We uphold order, self-control, and respect at all times.
-          </p>
-        </div>
-        <div
-          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
-        >
-          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
-            💡
+
+          <!-- Secondary -->
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="text-5xl">🎓</div>
+            <h3 class="text-xl font-semibold mt-3">Secondary div</h3>
+            <p class="text-gray-600 mt-2">
+              Preparing students for WAEC/NECO with science, arts, and
+              commercial streams.
+            </p>
+            <ul class="mt-3 text-17 text-gray-500 space-y-1">
+              <li>• Junior: Intro to sciences, arts, business</li>
+              <li>• Senior: Science, Arts, Commercial streams</li>
+              <li>• Exam prep: WAEC, NECO, JAMB</li>
+            </ul>
           </div>
-          <h3 class="font-semibold text-[20px] mt-2">Innovation</h3>
-          <p class="text-17 text-gray-600">
-            We nurture creativity and problem-solving skills.
-          </p>
-        </div>
-        <div
-          class="flex flex-col items-center border-[1px] border-gray-200 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
-        >
-          <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
-            🤝
-          </div>
-          <h3 class="font-semibold text-[20px] mt-2">Integrity</h3>
-          <p class="text-17 text-gray-600">
-            We promote honesty, fairness, and accountability.
-          </p>
         </div>
       </div>
     </div>
 
-    <!-- Our Rich History Section -->
-    <div class="py-20">
-      <div class="max-w-7xl mx-auto px-8">
-        <div class="flex gap-16 items-center">
-          <!-- Left Column - History Content -->
-          <div class="w-1/2">
-            <h2 class="text-4xl font-bold text-blue-800 mb-8">
-              Our Rich History
+    <!-- Admissions div -->
+    <div class="text-center" id="admission">
+      <div>
+        <h1 class="text-4xl font-bold mt-20">Admissions</h1>
+        <h1 class="text-xl mt-2 mx-80">
+          We admit students into Nursery, Primary, and Secondary levels through
+          a simple, transparent process that ensures proper placement for every
+          child’s growth and success.
+        </h1>
+      </div>
+      <div class="flex gap-20 items-center mt-10 mb-20 mx-96">
+        <div
+          class="w-1/2 border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 text-start shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+        >
+          <div class="flex items-center gap-3">
+            <img src="notes.png" class="w-6" />
+            <h1 class="text-xl font-semibold">Admission Requirements</h1>
+          </div>
+          <h1 class="mt-2 text-[14px] text-gray-500">
+            Documents needed for successful application
+          </h1>
+          <ul class="mt-3 text-17 space-y-1">
+            <li class="items-center flex gap-1">
+              <span class="text-green-600 font-bold text-[26px]">•</span>
+              Completed application form
+            </li>
+            <li class="items-center flex gap-2">
+              <span class="text-green-600 font-bold text-[26px]">•</span> Birth
+              certificate
+            </li>
+            <li class="items-center flex gap-2">
+              <span class="text-green-600 font-bold text-[26px]">•</span>
+              Previous academic records
+            </li>
+            <li class="items-center flex gap-2">
+              <span class="text-green-600 font-bold text-[26px]">•</span>
+              Passport photographs (4 copies)
+            </li>
+            <li class="items-center flex gap-2">
+              <span class="text-green-600 font-bold text-[26px]">•</span>
+              Medical certificate
+            </li>
+            <li class="items-center flex gap-2">
+              <span class="text-green-600 font-bold text-[26px]">•</span>
+              Transfer certificate (if applicable)
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-col items-center text-center text-center w-1/2">
+          <p class="text-gray-700 mb-4 text-xl">
+            Ready to join our school community? Start your child’s journey with
+            us today.
+          </p>
+          <div class="flex gap-4">
+            <a
+              href="#apply"
+              class="px-6 py-3 bg-blue-900 text-white font-medium rounded-xl shadow hover:bg-blue-700 transition"
+              >Apply Now</a
+            >
+            <a
+              href="#download"
+              class="px-6 py-3 border border-blue-900 text-blue-900 font-medium rounded-xl hover:bg-blue-50 transition"
+              >Download Form</a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="text-2xl text-center font-bold">Admission Process</h1>
+        <div class="gap-10 mx-48 mt-10 grid grid-cols-4">
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                1
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Enquiry & Tour</h1>
+            <h1 class="text-17 mt-5">
+              Contact us and book a campus tour to learn about our programs,
+              fees, and facilities
+            </h1>
+          </div>
+
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                2
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Get Application Form</h1>
+            <h1 class="text-17 mt-5">
+              Pick up or download the application form; review entry
+              requirements and key dates.
+            </h1>
+          </div>
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                3
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Submit Form & Documents</h1>
+            <h1 class="text-17 mt-5">
+              Return the completed form with required documents (birth
+              certificate, recent passport photo, last report/result, transfer
+              letter if applicable).
+            </h1>
+          </div>
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                4
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Entrance Assessmentr</h1>
+            <h1 class="text-17 mt-5">
+              Candidate sits a placement/entrance test (Nursery/Primary:
+              literacy & numeracy; Secondary: English, Math, Science).
+            </h1>
+          </div>
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                5
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Interview & Review</h1>
+            <h1 class="text-17 mt-5">
+              Meet with the admissions team (parent/guardian + student) to
+              discuss fit and next steps.
+            </h1>
+          </div>
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                6
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Offer & Acceptance</h1>
+            <h1 class="text-17 mt-5">
+              Brief: Successful applicants receive an offer letter; accept by
+              paying the acceptance/tuition deposit before the deadline.
+            </h1>
+          </div>
+          <div
+            class="border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 rounded-lg p-3 text-center hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+          >
+            <div class="flex justify-center">
+              <h1
+                class="bg-green-600 w-fit rounded-full px-3 py-1 text-xl text-white"
+              >
+                7
+              </h1>
+            </div>
+            <h1 class="text-xl font-semibold mt-2">Enrollment & Onboarding</h1>
+            <h1 class="text-17 mt-5">
+              Complete medical/health form, uniform purchase, and orientation;
+              receive class allocation and start date.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Student Life div -->
+    <div class="text-center" id="studentlife">
+      <div class="">
+        <h1 class="text-4xl font-bold mt-20">Student Life</h1>
+        <h1 class="text-xl mt-2 mx-80">
+          Life at our school goes beyond the classroom. Students participate in
+          sports, clubs, cultural activities, and leadership programs that help
+          them grow socially, emotionally, and academically.
+        </h1>
+      </div>
+      <div></div>
+      <div
+        class="flex justify-between gap-20 items-center mt-10 mb-10 mx-48 bg-gray-100 rounded-lg"
+      >
+        <h1
+          class="tab p-3 w-full font-semibold border-b-[3px] cursor-pointer"
+          id="actv1"
+        >
+          Clubs & Societies
+        </h1>
+        <h1
+          class="tab p-3 w-full font-semibold border-b-[3px] cursor-pointer"
+          id="actv2"
+        >
+          Sports
+        </h1>
+        <h1
+          class="tab p-3 w-full font-semibold border-b-[3px] cursor-pointer"
+          id="actv3"
+        >
+          Cultural Activities
+        </h1>
+      </div>
+      <div>
+        <div class="tab-content" id="clubs">
+          <div class="max-w-6xl mx-auto px-6">
+            <!-- Heading -->
+
+            <!-- Grid of Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Science Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-green-600 text-4xl mb-4">🔬</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Science Club
+                </h3>
+                <p class="text-gray-600">
+                  Explore experiments, innovations, and hands-on projects that
+                  spark curiosity.
+                </p>
+              </div>
+
+              <!-- Debate Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-blue-600 text-4xl mb-4">🗣️</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Literary & Debate Society
+                </h3>
+                <p class="text-gray-600">
+                  Sharpen public speaking, critical thinking, and creative
+                  writing skills.
+                </p>
+              </div>
+
+              <!-- Coding Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-purple-600 text-4xl mb-4">💻</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  ICT / Coding Club
+                </h3>
+                <p class="text-gray-600">
+                  Learn programming, web design, and digital skills for the
+                  future.
+                </p>
+              </div>
+
+              <!-- Drama Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-pink-600 text-4xl mb-4">🎭</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Drama Club
+                </h3>
+                <p class="text-gray-600">
+                  Express creativity through stage performances and
+                  storytelling.
+                </p>
+              </div>
+
+              <!-- Sports Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-red-600 text-4xl mb-4">⚽</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Sports Club
+                </h3>
+                <p class="text-gray-600">
+                  Join football, basketball, and athletics for teamwork and
+                  fitness.
+                </p>
+              </div>
+
+              <!-- Environmental Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-green-700 text-4xl mb-4">🌿</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Environmental Club
+                </h3>
+                <p class="text-gray-600">
+                  Promote sustainability, tree planting, and care for the
+                  planet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content hidden" id="sports">
+          <div class="max-w-6xl mx-auto px-6">
+            <!-- Heading -->
+
+            <!-- Grid of Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Football -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-green-600 text-4xl mb-4">⚽</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Football
+                </h3>
+                <p class="text-gray-600">
+                  Build teamwork, stamina, and skill through exciting matches
+                  and training.
+                </p>
+              </div>
+
+              <!-- Basketball -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-orange-600 text-4xl mb-4">🏀</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Basketball
+                </h3>
+                <p class="text-gray-600">
+                  Sharpen coordination and teamwork while enjoying fast-paced
+                  games.
+                </p>
+              </div>
+
+              <!-- Athletics -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-red-600 text-4xl mb-4">🏃‍♂️</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Athletics
+                </h3>
+                <p class="text-gray-600">
+                  Sprint, long-distance, and field events that promote strength
+                  and endurance.
+                </p>
+              </div>
+
+              <!-- Volleyball -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-yellow-600 text-4xl mb-4">🏐</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Volleyball
+                </h3>
+                <p class="text-gray-600">
+                  Team-based sport that encourages coordination, strategy, and
+                  quick reflexes.
+                </p>
+              </div>
+
+              <!-- Table Tennis -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-blue-600 text-4xl mb-4">🏓</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Table Tennis
+                </h3>
+                <p class="text-gray-600">
+                  Fast-paced indoor sport that improves focus, reflex, and
+                  precision.
+                </p>
+              </div>
+
+              <!-- Swimming -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-cyan-600 text-4xl mb-4">🏊‍♀️</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Swimming
+                </h3>
+                <p class="text-gray-600">
+                  Enhance physical fitness, discipline, and water safety skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content hidden" id="cultural-activities">
+          <div class="max-w-6xl mx-auto px-6">
+            <!-- Heading -->
+
+            <!-- Grid of Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Drama Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-purple-600 text-4xl mb-4">🎭</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Drama Club
+                </h3>
+                <p class="text-gray-600">
+                  Explore acting, stage performance, and storytelling through
+                  plays and skits.
+                </p>
+              </div>
+
+              <!-- Music Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-pink-600 text-4xl mb-4">🎶</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Music Club
+                </h3>
+                <p class="text-gray-600">
+                  Learn instruments, singing, and music appreciation to build
+                  creativity and rhythm.
+                </p>
+              </div>
+
+              <!-- Dance Group -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-yellow-500 text-4xl mb-4">💃</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Dance Group
+                </h3>
+                <p class="text-gray-600">
+                  Celebrate movement and expression with cultural, modern, and
+                  creative dance.
+                </p>
+              </div>
+
+              <!-- Debate & Literary Society -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-blue-600 text-4xl mb-4">🗣️</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Debate & Literary Society
+                </h3>
+                <p class="text-gray-600">
+                  Build confidence in public speaking, writing, and critical
+                  thinking skills.
+                </p>
+              </div>
+
+              <!-- Art & Creativity Club -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-green-600 text-4xl mb-4">🎨</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Art & Creativity Club
+                </h3>
+                <p class="text-gray-600">
+                  Express imagination through painting, drawing, crafts, and
+                  visual arts.
+                </p>
+              </div>
+
+              <!-- Cultural Day & Traditions -->
+              <div
+                class="border-[1px] border-gray-200 shadow-md rounded-2xl p-6 hover:shadow-3xl hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer"
+              >
+                <div class="text-red-600 text-4xl mb-4">🌍</div>
+                <h3 class="text-xl font-semibold text-gray-700 mb-2">
+                  Cultural Day & Traditions
+                </h3>
+                <p class="text-gray-600">
+                  Celebrate Nigeria’s rich heritage with traditional music,
+                  dance, food, and dress.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact div -->
+    <div
+      id="contact"
+      class="bg-gradient-to-r from-[#f8fbff] to-[#f0f4f9] flex items-center mt-10 pt-10 pb-5"
+    >
+      <div class="w-1/2 p-6">
+        <div class="">
+          <h1 class="text-6xl font-bold">Contact Us</h1>
+          <h1 class="text-[18px] mt-5 w-1/2">
+            We’d love to hear from you! Whether you’re a parent, guardian, or
+            visitor, feel free to reach out through any of the channels below.
+          </h1>
+        </div>
+        <div class="grid grid-cols-3 gap-10 mt-10">
+          <div>
+            <h1 class="font-semibold text-xl">Address</h1>
+            <h1 class="mt-2 text-[15px]">
+              123 Education Lane, Garki, Abuja, Nigeria
+            </h1>
+          </div>
+          <div>
+            <h1 class="font-semibold text-xl">Phone Numbers</h1>
+            <div>
+              <h1 class="mt-2 text-[15px]">📱 +234 812 345 6789</h1>
+              <h1 class="mt-2 text-[15px]">☎️ +234 701 234 5678</h1>
+            </div>
+          </div>
+          <div>
+            <h1 class="font-semibold text-xl">Email</h1>
+            <h1 class="mt-2 text-[15px]">✉️ info@EduVerse.com</h1>
+          </div>
+          <div>
+            <h1 class="font-semibold text-xl">Office Hours</h1>
+            <div>
+              <h1 class="mt-2 text-[15px]">
+                🕒 Monday – Friday: 8:00 am – 4:00 pm
+              </h1>
+              <h1 class="mt-2 text-[15px]">
+                📌 Closed on weekends and public holidays
+              </h1>
+            </div>
+          </div>
+          <div>
+            <h1 class="font-semibold text-xl">Address</h1>
+            <h1 class="mt-2 text-[15px]">
+              123 Education Lane, Garki, Abuja, Nigeria
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-1/2 flex items-center justify-center px-6">
+        <div class="bg-white shadow-lg rounded-2xl w-full max-w-lg p-8">
+          <div class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-800">Get in Touch</h2>
+            <h2 class="text-[17x] mt-2 font-semibold">
+              You can reach us anytime
             </h2>
-
-            <!-- Founded in 2005 -->
-            <div class="flex items-start gap-4 mb-8">
-              <div
-                class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0"
-              >
-                <svg
-                  class="w-6 h-6 text-blue-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  ></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-800 mb-2">
-                  Founded in 2010
-                </h3>
-                <p class="text-gray-600 leading-relaxed">
-                  Eduverse was founded in 2010 with 40 students and 6 passionate
-                  teachers, driven by a mission to nurture excellence and
-                  character in young learners.
-                </p>
-              </div>
-            </div>
-
-            <!-- Growing Community -->
-            <div class="flex items-start gap-4 mb-8">
-              <div
-                class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center flex-shrink-0"
-              >
-                <svg
-                  class="w-6 h-6 text-green-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                  ></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-800 mb-2">
-                  Growing Community
-                </h3>
-                <p class="text-gray-600 leading-relaxed">
-                  Today, Eduverse has expanded into a vibrant learning community
-                  of 850 students and 50+ experienced teachers, enriched with
-                  science labs, ICT centers, and a spacious 12-acre campus.
-                </p>
-              </div>
-            </div>
-
-            <!-- Academic Excellence -->
-            <div class="flex items-start gap-4">
-              <div
-                class="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center flex-shrink-0"
-              >
-                <svg
-                  class="w-6 h-6 text-orange-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                  ></path>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-xl font-bold text-gray-800 mb-2">
-                  Academic Excellence
-                </h3>
-                <p class="text-gray-600 leading-relaxed">
-                  Year after year, Eduverse students excel in national
-                  examinations such as WAEC, NECO, and JAMB, with remarkable
-                  pass rates and increasing access to university scholarships.
-                </p>
-              </div>
-            </div>
           </div>
 
-          <!-- Right Column - Classroom Image -->
-          <div class="flex justify-center">
-            <!-- Overlay box with years of excellence -->
-            <div class="bg-blue-800 text-white px-10 py-6 rounded-lg">
-              <div class="text-6xl font-bold">12+</div>
-              <div class="text-15">Years of Excellence</div>
+          <form action="#" method="POST" class="space-y-5">
+            <!-- Full Name -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1"
+                >Full Name
+                <span class="text-gray-500"
+                  >(Parent/Guardian/Visitor)</span
+                ></label
+              >
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                required
+                class="w-full px-4 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
             </div>
-          </div>
+
+            <!-- Email -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1"
+                >Email Address
+                <span class="text-gray-500">(for replies)</span></label
+              >
+              <input
+                type="email"
+                placeholder="Enter your email"
+                required
+                class="w-full px-4 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <!-- Phone Number -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1"
+                >Phone Number
+                <span class="text-gray-500"
+                  >(optional, but helpful)</span
+                ></label
+              >
+              <input
+                type="tel"
+                placeholder="Enter your phone number"
+                class="w-full px-4 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <!-- Subject / Inquiry Type -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1"
+                >Subject / Inquiry Type</label
+              >
+              <select
+                required
+                class="w-full px-4 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Select an option</option>
+                <option value="admissions">Admissions</option>
+                <option value="general">General Inquiry</option>
+                <option value="fees">School Fees</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1"
+                >Message</label
+              >
+              <textarea
+                rows="4"
+                placeholder="Write your message here..."
+                required
+                class="w-full px-4 py-3 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-full transition duration-200"
+            >
+              Submit
+            </button>
+
+            <!-- Terms -->
+            <p class="text-xs text-gray-500 text-center mt-2">
+              By contacting us, you agree to our
+              <a href="#" class="text-blue-600 hover:underline"
+                >Terms of Service</a
+              >
+              and
+              <a href="#" class="text-blue-600 hover:underline"
+                >Privacy Policy</a
+              >.
+            </p>
+          </form>
         </div>
       </div>
     </div>
+
+    <script src="school.js"></script>
 
     <style>
       .clip-path {
         clip-path: ellipse(100% 100% at 0% 0%);
+      }
+      html {
+        scroll-behavior: smooth;
       }
     </style>
   </body>
