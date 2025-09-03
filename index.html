@@ -108,29 +108,28 @@
     </nav>
 
     <!-- Hero div -->
-    <div
-      class="flex md:flex-row flex-col h-[800px] w-[100%] pt-[68px]"
-      id="home"
-    >
+    <div class="flex md:flex-row flex-col w-[100%] pt-[68px]" id="home">
       <!-- Left Column - Hero Content -->
       <div class="md:w-1/2">
         <div
-          class="bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 h-[100%] w-full clip-path"
+          class="bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 md:h-[800px] h-[400px] w-full clip-path"
         >
           <div class="p-10 text-white">
-            <img src="graduation.png" class="lg:w-32 md:w-24" alt="" />
+            <img src="graduation.png" class="lg:w-32 md:w-24 w-20" alt="" />
 
             <h1
-              class="lg:text-5xl md:text-3xl text-wrap font-bold lg:w-[70%] md:w-[90%] mt-5"
+              class="lg:text-5xl md:text-3xl text-xl text-wrap font-bold lg:w-[70%] md:w-[90%] md:mt-5 mt-2"
             >
               Shaping Bright Futures, One Student at a Time
             </h1>
-            <h1 class="lg:text-xl lg:w-[70%] md:w-[90%] md:text-[17px] mt-10">
+            <h1
+              class="lg:text-xl lg:w-[70%] md:w-[90%] w-[80%] md:text-[17px] text-[14px] md:mt-10 mt-5"
+            >
               Empowering young minds with quality education, creativity, and
               character for tomorrow's leaders
             </h1>
             <button
-              class="mt-10 bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer mx-auto"
+              class="md:mt-10 mt-5 md:text-[17px] text-[13px] bg-white text-blue-700 font-bold md:px-6 md:py-3 px-4 py-2 rounded-full hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer mx-auto"
             >
               Contact
             </button>
@@ -139,7 +138,9 @@
       </div>
 
       <!-- Right Column - Quality Education Graphic -->
-      <div class="md:w-1/2 flex items-center justify-center relative">
+      <div
+        class="md:w-1/2 flex items-center justify-center relative md:mt-0 mt-10"
+      >
         <!-- Background teal shape -->
 
         <!-- Main Quality Education Graphic -->
@@ -147,7 +148,7 @@
           <!-- Central graduation cap icon -->
           <div class="mx-auto mb-6">
             <div
-              class="lg:w-32 lg:h-32 md:w-24 md:h-24 bg-blue-800 rounded-full flex items-center justify-center mx-auto"
+              class="lg:w-32 lg:h-32 md:w-24 md:h-24 w-fit h-fit md:p-0 p-2 bg-blue-800 rounded-full flex items-center justify-center mx-auto"
             >
               <svg
                 class="w-16 h-16 text-white"
@@ -172,10 +173,12 @@
           </div>
 
           <!-- Main text -->
-          <h2 class="lg:text-4xl md:text-2xl font-bold text-gray-800 mb-3">
+          <h2
+            class="lg:text-4xl md:text-2xl text-xl font-bold text-gray-800 mb-3"
+          >
             Quality Education
           </h2>
-          <p class="text-xl text-gray-600 mb-10">
+          <p class="md:text-xl text-[16px] text-gray-600 mb-10">
             Building bright futures together
           </p>
 
