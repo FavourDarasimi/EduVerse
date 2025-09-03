@@ -8,67 +8,124 @@
   </head>
   <body class="">
     <!-- Navbar -->
-    <nav
-      class="fixed top-0 left-0 right-0 z-50 shadow-lg p-3 bg-white/50 backdrop-blur-sm"
-    >
-      <ul class="flex items-center justify-between list-none mx-32">
-        <li class="flex items-center gap-x-2 font-bold text-[22px]">
+    <nav class="fixed top-0 left-0 right-0 z-50 shadow-lg p-3 bg-white">
+      <div class="flex items-center justify-between px-4 md:px-16 lg:px-32">
+        <!-- Logo -->
+        <div class="flex items-center gap-x-2 font-bold text-[22px]">
           <div
             class="bg-gradient-to-r from-blue-500 to-blue-700 rounded-xl p-1"
           >
-            <img src="graduation.png" class="w-9" alt="" />
+            <img src="graduation.png" class="w-9" alt="EduVerse logo" />
           </div>
           EduVerse
-        </li>
-        <div class="flex gap-8">
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden lg:flex gap-8">
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#home">Home</a>
           </li>
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#about">About</a>
           </li>
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#academics">Academics</a>
           </li>
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#admission">Admissions</a>
           </li>
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#studentlife">Student Life</a>
           </li>
           <li
-            class="font-semibold text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600"
+            class="font-semibold text-[17px] hover:scale-105 transition-all duration-300 cursor-pointer hover:text-blue-600"
           >
             <a href="#contact">Contact</a>
           </li>
-        </div>
+        </ul>
+
+        <!-- Mobile Hamburger -->
+        <button id="menu-btn" class="block lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Dropdown -->
+      <ul
+        id="mobile-menu"
+        class="hidden flex-col items-center bg-white/90 backdrop-blur-sm lg:hidden p-4 space-y-4 absolute w-[70%] right-0 top-full shadow-md rounded-xl"
+      >
+        <li>
+          <a href="#home" class="hover:text-blue-600 font-semibold">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="hover:text-blue-600 font-semibold">About</a>
+        </li>
+        <li>
+          <a href="#academics" class="hover:text-blue-600 font-semibold"
+            >Academics</a
+          >
+        </li>
+        <li>
+          <a href="#admission" class="hover:text-blue-600 font-semibold"
+            >Admissions</a
+          >
+        </li>
+        <li>
+          <a href="#studentlife" class="hover:text-blue-600 font-semibold"
+            >Student Life</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-blue-600 font-semibold"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
 
     <!-- Hero div -->
-    <div class="flex h-[800px] w-full pt-[68px]" id="home">
+    <div
+      class="flex md:flex-row flex-col h-[800px] w-[100%] pt-[68px]"
+      id="home"
+    >
       <!-- Left Column - Hero Content -->
-      <div class="w-1/2">
+      <div class="md:w-1/2">
         <div
-          class="relative bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 h-[100%] w-full clip-path"
+          class="bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 h-[100%] w-full clip-path"
         >
           <div class="p-10 text-white">
-            <img src="graduation.png" class="w-32" alt="" />
+            <img src="graduation.png" class="lg:w-32 md:w-24" alt="" />
 
-            <h1 class="text-5xl text-wrap font-bold w-[70%] mt-5">
+            <h1
+              class="lg:text-5xl md:text-3xl text-wrap font-bold lg:w-[70%] md:w-[90%] mt-5"
+            >
               Shaping Bright Futures, One Student at a Time
             </h1>
-            <h1 class="text-xl w-[70%] mt-10">
+            <h1 class="lg:text-xl lg:w-[70%] md:w-[90%] md:text-[17px] mt-10">
               Empowering young minds with quality education, creativity, and
               character for tomorrow's leaders
             </h1>
@@ -82,15 +139,15 @@
       </div>
 
       <!-- Right Column - Quality Education Graphic -->
-      <div class="w-1/2 flex items-center justify-center relative">
+      <div class="md:w-1/2 flex items-center justify-center relative">
         <!-- Background teal shape -->
 
         <!-- Main Quality Education Graphic -->
-        <div class="relative z-10 text-center rounded-3xl p-12 bg-white">
+        <div class="relative z-10 text-center rounded-3xl lg:p-12 bg-white">
           <!-- Central graduation cap icon -->
           <div class="mx-auto mb-6">
             <div
-              class="w-32 h-32 bg-blue-800 rounded-full flex items-center justify-center mx-auto"
+              class="lg:w-32 lg:h-32 md:w-24 md:h-24 bg-blue-800 rounded-full flex items-center justify-center mx-auto"
             >
               <svg
                 class="w-16 h-16 text-white"
@@ -115,7 +172,7 @@
           </div>
 
           <!-- Main text -->
-          <h2 class="text-4xl font-bold text-gray-800 mb-3">
+          <h2 class="lg:text-4xl md:text-2xl font-bold text-gray-800 mb-3">
             Quality Education
           </h2>
           <p class="text-xl text-gray-600 mb-10">
@@ -1181,6 +1238,13 @@
       }
       html {
         scroll-behavior: smooth;
+      }
+      .nav-link {
+        @apply font-semibold text-base xl:text-[17px] hover:scale-105 hover:transition-all hover:duration-300 cursor-pointer hover:text-blue-600 transition-all duration-200;
+      }
+
+      .mobile-nav-link {
+        @apply block py-3 px-2 font-semibold text-base hover:text-blue-600 hover:bg-blue-50 rounded-md transition-all duration-200;
       }
     </style>
   </body>

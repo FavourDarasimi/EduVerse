@@ -40,3 +40,10 @@ tabs.forEach((tab) => {
 
 // Set default active tab
 activateTab(document.getElementById("actv1"));
+
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
