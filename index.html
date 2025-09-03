@@ -112,7 +112,7 @@
       <!-- Left Column - Hero Content -->
       <div class="md:w-1/2">
         <div
-          class="bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 md:h-[800px] h-[400px] w-full clip-path"
+          class="bg-gradient-to-t from-green-300 via-blue-600 to-blue-900 lg:h-[800px] md:h-[550px] h-[400px] w-full clip-path"
         >
           <div class="p-10 text-white">
             <img src="graduation.png" class="lg:w-32 md:w-24 w-20" alt="" />
@@ -290,22 +290,28 @@
 
     <!-- About div -->
     <div id="about">
-      <div class="mt-10 mx-80">
+      <div class="md:mt-10 mt-32 md:mx-80 mx-20">
         <div class="text-center mb-10">
-          <h1 class="text-4xl font-bold">Our Core Values</h1>
-          <h1 class="text-xl mt-2">
+          <h1 class="lg:text-4xl md:text-3xl text-[26px] font-bold">
+            Our Core Values
+          </h1>
+          <h1 class="md:text-xl text-[16px] mt-2">
             The foundation of our educational philosophy
           </h1>
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+        <div
+          class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center"
+        >
           <div
             class="flex flex-col items-center border-[1px] border-gray-200 bg-gradient-to-b from-white via-[#fafafa] to-blue-50 p-5 rounded-lg hover:shadow-lg hover:scale-110 hover:transition-all hover:duration-500 cursor-pointer hover:shadow-3xl"
           >
             <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
               🏆
             </div>
-            <h3 class="font-semibold text-[20px] mt-2">Excellence</h3>
-            <p class="text-17 text-gray-600">
+            <h3 class="font-semibold md:text-[20px] text-[18px] mt-2">
+              Excellence
+            </h3>
+            <p class="md:text-17 text-[16px] text-gray-600">
               We strive for the highest standards in academics and character.
             </p>
           </div>
@@ -315,8 +321,10 @@
             <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
               🛡️
             </div>
-            <h3 class="font-semibold text-[20px] mt-2">Discipline</h3>
-            <p class="text-17 text-gray-600">
+            <h3 class="font-semibold md:text-[20px] text-[18px] mt-2">
+              Discipline
+            </h3>
+            <p class="md:text-17 text-[16px] text-gray-600">
               We uphold order, self-control, and respect at all times.
             </p>
           </div>
@@ -326,8 +334,10 @@
             <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
               💡
             </div>
-            <h3 class="font-semibold text-[20px] mt-2">Innovation</h3>
-            <p class="text-17 text-gray-600">
+            <h3 class="font-semibold md:text-[20px] text-[18px] mt-2">
+              Innovation
+            </h3>
+            <p class="md:text-17 text-[16px] text-gray-600">
               We nurture creativity and problem-solving skills.
             </p>
           </div>
@@ -337,8 +347,10 @@
             <div class="text-3xl bg-blue-100 rounded-full w-fit px-2 py-3">
               🤝
             </div>
-            <h3 class="font-semibold text-[20px] mt-2">Integrity</h3>
-            <p class="text-17 text-gray-600">
+            <h3 class="font-semibold md:text-[20px] text-[18px] mt-2">
+              Integrity
+            </h3>
+            <p class="md:text-17 text-[16px] text-gray-600">
               We promote honesty, fairness, and accountability.
             </p>
           </div>
@@ -346,14 +358,18 @@
       </div>
       <!-- Our Rich History div -->
       <div class="py-20">
-        <div class="max-w-7xl mx-auto px-8">
-          <div class="flex gap-16 items-center">
+        <div class="md:px-8">
+          <div
+            class="flex md:flex-row flex-col gap-16 items-center justify-center"
+          >
             <!-- Left Column - History Content -->
             <div class="w-1/2">
-              <h2 class="text-4xl font-bold mb-8">Our Rich History</h2>
+              <h2 class="lg:text-4xl md:text-3xl text-[26px] font-bold mb-8">
+                Our Rich History
+              </h2>
 
               <!-- Founded in 2005 -->
-              <div class="flex items-start gap-4 mb-8">
+              <div class="flex md:flex-row flex-col items-start gap-4 mb-8">
                 <div
                   class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0"
                 >
@@ -384,7 +400,7 @@
               </div>
 
               <!-- Growing Community -->
-              <div class="flex items-start gap-4 mb-8">
+              <div class="flex md:flex-row flex-col items-start gap-4 mb-8">
                 <div
                   class="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center flex-shrink-0"
                 >
@@ -416,7 +432,7 @@
               </div>
 
               <!-- Academic Excellence -->
-              <div class="flex items-start gap-4">
+              <div class="flex md:flex-row flex-col items-start gap-4">
                 <div
                   class="w-12 h-12 bg-orange-200 rounded-full flex items-center justify-center flex-shrink-0"
                 >
@@ -451,7 +467,9 @@
             <div class="flex justify-center">
               <!-- Overlay box with years of excellence -->
               <div class="bg-blue-800 text-white px-10 py-6 rounded-lg">
-                <div class="text-6xl font-bold">12+</div>
+                <div class="md:text-6xl text-center text-3xl font-bold">
+                  12+
+                </div>
                 <div class="text-15">Years of Excellence</div>
               </div>
             </div>
